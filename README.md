@@ -1,17 +1,21 @@
 # Socket - Server
 
-Reconstruir modulos de node
-....
+***
+1.- Reconstruir modulos de node
+
+```
 npm install
-....
+```
 
-Generar el dist
-...........
+***
+2.- Generar el dist
+```
 tsc -w
-...........
+```
 
-Levanta servidor, cualquiera de los dos comandos
-.......
+***
+3.- Levanta servidor, cualquiera de los dos comandos
+```
 nodemon dist/
 node dist/
-.......
+```

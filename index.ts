@@ -3,7 +3,7 @@ import cors from 'cors';
 import { Server } from "./clases/server";
 import { router } from "./routes/router";
 
-const server = new Server();
+const server = Server.instance;
 
 // Antes de las routres configurar body parse
 server.app.use(bodyParser.urlencoded({extended:true}));
